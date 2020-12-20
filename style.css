@@ -1,0 +1,104 @@
+body{
+
+	height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+h1 {font-family:verdana; font-size:50px; color:tomato; text-align:center;}
+h2 {font-family:verdana; font-style:italic; font-size:12px; color:black; text-align: right;}
+
+.container{
+	width:100%;	
+}
+.topo{
+	background-color: slateblue;
+	overflow-x: auto;
+	width:100%;
+}
+
+.corpo{
+	background-color:hsla(9, 80%, 64%, 0.25);
+	height: 100vh;
+	max-width:100%;
+	padding: 0;
+	text-align: center;
+}
+.logo {
+	margin:0 auto;
+	width:340px;
+	height:122px;
+}
+#logo {
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 120px;
+	float: center;
+}
+.botoes {
+	display: inline-block;
+	position: absolute;
+	right:0px;
+	left: 0px;
+	bottom: -40px;
+}
+#mobile {
+	font-family: fantasy;
+	font-style: italic;
+	font-size: 20px;
+	color: white;
+	width: 220px;
+	height: 160px;
+	background-color: rgba(126, 176, 45, 0.6);
+	border:none;
+}
+#web {
+	font-family: fantasy;
+	font-style: italic;
+	font-size: 20px;
+	color: white;
+	width: 220px;
+	height: 160px;
+	background-color: rgba(208, 32, 25, 0.6);
+	border:none;
+}
+#data {
+	font-family: fantasy;
+	font-style: italic;
+	font-size: 20px;
+	color: white;
+	width: 220px;
+	height: 160px;
+	background-color: rgba(16, 102, 194, 0.6);
+	border:none;
+}
+.turma{
+	position:absolute;
+	right: 12px;
+	bottom: -132px;
+}
+.rodape {
+	position:absolute;
+    margin-bottom:0;
+    max-width:100%;
+    width:100%;
+	background-color:rgba(160, 160, 160, 0.5);
+}
+.email {
+	max-width: 100%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	text-align: center;
+}
+#email {
+	width: 450px;
+	height:25px;
+}
+#enviar {
+	height:31.4px;
+	width: 65px;
+	color:white;
+	font-weight:bold;
+	background-color: tomato;
+}
