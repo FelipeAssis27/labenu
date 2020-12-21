@@ -5,7 +5,12 @@ body{
     margin:0;
     padding:0;
 }
-
+img{
+	max-width: 100%;
+}
+button{
+	max-width: 30%;
+}
 h1 {font-family:verdana; font-size:50px; color:tomato; text-align:center;}
 h2 {font-family:verdana; font-style:italic; font-size:12px; color:black; text-align: right;}
 
@@ -27,13 +32,13 @@ h2 {font-family:verdana; font-style:italic; font-size:12px; color:black; text-al
 }
 .logo {
 	margin:0 auto;
-	width:340px;
-	height:122px;
+	width:380px;
+	height:142px;
 }
 #logo {
 	max-width: 100%;
 	max-height: 100%;
-	margin-top: 120px;
+	margin-top: 100px;
 	float: center;
 }
 .botoes {
@@ -48,30 +53,48 @@ h2 {font-family:verdana; font-style:italic; font-size:12px; color:black; text-al
 	font-style: italic;
 	font-size: 20px;
 	color: white;
-	width: 220px;
-	height: 160px;
+	width: 200px;
+	height: 140px;
 	background-color: rgba(126, 176, 45, 0.6);
 	border:none;
+	margin-right: 18px;
 }
+#mobile:hover{
+	width: 210px;
+	height: 150px;
+	background-color: rgba(126, 196, 45, 0.6);
+}
+
 #web {
 	font-family: fantasy;
 	font-style: italic;
 	font-size: 20px;
 	color: white;
-	width: 220px;
-	height: 160px;
+	width: 200px;
+	height: 140px;
 	background-color: rgba(208, 32, 25, 0.6);
 	border:none;
+}
+#web:hover{
+	width: 210px;
+	height: 150px;
+	background-color: rgba(228, 32, 25, 0.6);
 }
 #data {
 	font-family: fantasy;
 	font-style: italic;
 	font-size: 20px;
 	color: white;
-	width: 220px;
-	height: 160px;
+	width: 200px;
+	height: 140px;
 	background-color: rgba(16, 102, 194, 0.6);
 	border:none;
+	margin-right: 18px;
+}
+#data:hover{
+	width: 210px;
+	height: 150px;
+	background-color: rgba(16, 102, 214, 0.6);
 }
 .turma{
 	position:absolute;
@@ -101,4 +124,5 @@ h2 {font-family:verdana; font-style:italic; font-size:12px; color:black; text-al
 	color:white;
 	font-weight:bold;
 	background-color: tomato;
+	margin-left: -4px;
 }

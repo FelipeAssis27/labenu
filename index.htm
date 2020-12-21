@@ -21,9 +21,9 @@
 				</a>
 			</div>	
 			<div class="botoes">
-				<button id="mobile" title="currículo">Mobile<br>Frontend</button>
-				<button id="data" title="currículo">Data<br>Science</button>
-				<button id="web" title="currículo">Web<br>Full Stack</button>
+				<a href="downloads\curriculo.pdf"><button id="mobile" title="currículo">Mobile<br>Frontend</button></a>
+				<a href="downloads\curriculo.pdf"><button id="data" title="currículo">Data<br>Science</button></a>
+				<a href="downloads\curriculo.pdf"><button id="web" title="currículo">Web<br>Full Stack</button></a>
 			</div>
 			
 			<div class="turma">
@@ -31,14 +31,18 @@
 			</div>			
 		</div>
 
-		<div class="rodape">
-			<div class="email">
-				<input type="text" id="email" placeholder="Coloque seu e-mail para contato!:)"></input>
-				<a href="mailto:labenu@labenu.com.br"><button id="enviar">ENVIAR</button></a>
-			</div>	
-		</div>
+		<footer class="rodape">
+			<form action="#" id="validacao">
+				<div class="email">
+					<input type="email" id="email" placeholder="Coloque seu e-mail para contato!:)" required></input>
+					<a href="#"><button type="submit" id="enviar">ENVIAR</button></a>
+				</div>		
+			</form>
+			
+		</footer>
 
 	</div>
+	<script src="script.js" type="text/javascript"></script>
 
 </body>
 
