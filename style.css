@@ -7,12 +7,20 @@ body{
 }
 img{
 	max-width: 100%;
+	position: center;
 }
 button{
-	max-width: 30%;
+	max-width: 100%;
+	display: inline-block;
+	margin-bottom: -150px;
 }
-h1 {font-family:verdana; font-size:50px; color:tomato; text-align:center;}
-h2 {font-family:verdana; font-style:italic; font-size:12px; color:black; text-align: right;}
+input {
+	max-width: 80%;
+}
+
+h1 {font-family:verdana; font-size:28px; color:tomato; text-align:center;}
+h2 {font-family:verdana; font-style:italic; font-size:12px;}
+h3 {font-family:verdana; font-style:italic; font-size:12px;}
 
 .container{
 	width:100%;	
@@ -27,41 +35,51 @@ h2 {font-family:verdana; font-style:italic; font-size:12px; color:black; text-al
 	background-color:hsla(9, 80%, 64%, 0.25);
 	height: 100vh;
 	max-width:100%;
-	padding: 0;
+	margin-top: -12px;
 	text-align: center;
 }
+#mensagem{
+	visibility:hidden;
+  	padding-top: 0px;
+  	text-align: left;
+  	padding-left: 12px;
+}
 .logo {
+	position: relative;
+	padding-top: 120px;
+	max-width: 70%;
+	max-height: 50%
+	text-align: center;
 	margin:0 auto;
-	width:380px;
-	height:142px;
 }
 #logo {
-	max-width: 100%;
-	max-height: 100%;
-	margin-top: 100px;
-	float: center;
+	position: relative;
+	width:360px;
+	height:122px;
+	bottom:40px;
 }
 .botoes {
-	display: inline-block;
 	position: absolute;
+	padding-bottom: 20px;
 	right:0px;
 	left: 0px;
-	bottom: -40px;
+	bottom: 40px;
 }
 #mobile {
 	font-family: fantasy;
 	font-style: italic;
 	font-size: 20px;
 	color: white;
-	width: 200px;
-	height: 140px;
+	width: 170px;
+	height: 130px;
 	background-color: rgba(126, 176, 45, 0.6);
 	border:none;
 	margin-right: 18px;
+	margin-bottom: 18px;
 }
 #mobile:hover{
-	width: 210px;
-	height: 150px;
+	width: 175px;
+	height: 135px;
 	background-color: rgba(126, 196, 45, 0.6);
 }
 
@@ -70,14 +88,15 @@ h2 {font-family:verdana; font-style:italic; font-size:12px; color:black; text-al
 	font-style: italic;
 	font-size: 20px;
 	color: white;
-	width: 200px;
-	height: 140px;
+	width: 170px;
+	height: 130px;
 	background-color: rgba(208, 32, 25, 0.6);
 	border:none;
+	margin-right: 18px;
 }
 #web:hover{
-	width: 210px;
-	height: 150px;
+	width: 175px;
+	height: 135px;
 	background-color: rgba(228, 32, 25, 0.6);
 }
 #data {
@@ -85,24 +104,26 @@ h2 {font-family:verdana; font-style:italic; font-size:12px; color:black; text-al
 	font-style: italic;
 	font-size: 20px;
 	color: white;
-	width: 200px;
-	height: 140px;
+	width: 170px;
+	height: 130px;
 	background-color: rgba(16, 102, 194, 0.6);
 	border:none;
 	margin-right: 18px;
+	margin-bottom: 18px;
 }
 #data:hover{
-	width: 210px;
-	height: 150px;
+	width: 175px;
+	height: 135px;
 	background-color: rgba(16, 102, 214, 0.6);
 }
 .turma{
 	position:absolute;
 	right: 12px;
-	bottom: -132px;
+	bottom: -82px;
 }
 .rodape {
-	position:absolute;
+	object-position: absolute;
+	display: inline-block;
     margin-bottom:0;
     max-width:100%;
     width:100%;
@@ -121,6 +142,7 @@ h2 {font-family:verdana; font-style:italic; font-size:12px; color:black; text-al
 #enviar {
 	height:31.4px;
 	width: 65px;
+	max-width: 100%;
 	color:white;
 	font-weight:bold;
 	background-color: tomato;
